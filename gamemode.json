@@ -1,0 +1,85 @@
+{
+  "Name": "mode.name",
+  "Description": "mode.description",
+  "DefaultLang": "en",
+  "StartClientVersion": 703,
+  "MapFilter": {
+    "IsBlank": false,
+    "HasParcourEnd": false
+  },
+  "MapLists": [
+    {
+      "MapListId": 324,
+      "Name": "maplist.allmaps"
+    },
+    {
+      "MapListId": 24854,
+      "Name": "S",
+      "Parameters": {
+        "GameLength": "S"
+      }
+    },
+    {
+      "MapListId": 24855,
+      "Name": "M",
+      "Parameters": {
+        "GameLength": "M"
+      }
+    },
+    {
+      "MapListId": 24856,
+      "Name": "L",
+      "Parameters": {
+        "GameLength": "L"
+      }
+    },
+    {
+      "MapListId": 24857,
+      "Name": "XL",
+      "Parameters": {
+        "GameLength": "XL"
+      }
+    },
+    {
+      "MapListId": 581,
+      "Name": "maplist.interesting"
+    }
+  ],
+  "ParametersDeclaration": [
+    {
+      "Name": "GameLength",
+      "Type": "String",
+      "Default": "M"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "MapRotation",
+        "DisplayName": "params.MapRotation",
+        "Default": true,
+        "Order": 1
+      },
+      {
+        "Name": "OnlyKnives",
+        "DisplayName": "params.OnlyKnives",
+        "Order": 2
+      },
+      {
+        "Name": "OnlyPlayerBlocksDmg",
+        "DisplayName": "params.OnlyPlayerBlocksDmg",
+        "Order": 3
+      },
+      {
+        "Name": "LoosenBlocks",
+        "DisplayName": "params.LoosenBlocks",
+        "Order": 4
+      },
+      {
+        "Name": "FriendlyFire",
+        "DisplayName": "params.FriendlyFire",
+        "Order": 5
+      }
+    ]
+  }
+}
