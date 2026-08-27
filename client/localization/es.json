@@ -1,0 +1,32 @@
+{
+  "mode.name": "TDM (Batalla por Equipos)",
+  "mode.description": "Confrontación de dos equipos",
+
+  "maplist.allmaps": "Todos los mapas",
+  "maplist.interesting": "Mapas interesantes",
+
+  "params.MapRotation": "Rotación de mapas",
+  "params.OnlyKnives": "Solo cuchillos",
+  "params.OnlyPlayerBlocksDmg": "Daño solo a bloques de jugadores",
+  "params.LoosenBlocks": "Aflojar bloques",
+  "params.FriendlyFire": "Fuego amigo",
+
+  "Hint/WaitingPlayers": "Esperando jugadores",
+  "Hint/TacticalPrep": "Preparación táctica",
+  "Hint/MainBattle": "Ataca a los enemigos",
+  "Hint/OvertimePause": "¡Tiempo extra!",
+  "Hint/Overtime": "30s combate final",
+  "Hint/TieBreaker": "¡Frag final!",
+  "Hint/EndOfMatch": "Fin del partido",
+  "Hint/MockHintForWinners": "¡Victoria! ¡Castigando a los perdedores!))",
+  "Hint/MockHintForLoosers": "¡Derrota! ¡Los ganadores nos castigan!",
+
+  "Statistics/Kills": "Asesinatos",
+  "Statistics/KillsShort": "K",
+  "Statistics/Deaths": "Muertes",
+  "Statistics/DeathsShort": "D",
+  "Statistics/Spawns": "Apariciones",
+  "Statistics/SpawnsShort": "S",
+  "Statistics/Scores": "Puntos",
+  "Statistics/ScoresShort": "P"
+}
